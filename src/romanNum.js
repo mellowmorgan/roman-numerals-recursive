@@ -35,7 +35,6 @@ export default function romanNum(num, roman){
   else if (num-5>=0){
     return romanNum(num-5, roman.concat('V'));
   }
-
   else if (num-4>=0){
     return romanNum(num-4, roman.concat('IV'));
   }
