@@ -31,14 +31,18 @@ describe('romanNum function', () => {
 
   test('should return error string for 0', () => {
     const result7 = romanNum(0,"");
-    expect(result7).toEqual("Error: please enter an integer greater than 0.");
+    expect(result7).toEqual("Error: Please enter an integer greater than 0.");
   });
 
+  test('should return error string for hello', () => {
+    const result8 = romanNum("hello","");
+    expect(result8).toEqual("Error: please enter an integer.");
+  });
+  test('should return error string for hello', () => {
+    const result9 = romanNum(2.222,"");
+    expect(result9).toEqual("Error: please enter an integer.");
+  });
 
-  // test('should return 2 quarters and 1 dimes 1 nickels and 4 pennies if input is .69', () => {
-  //   const result3 = coinCounter(.69);
-  //   expect(result3).toEqual("2 quarters, 1 dimes, 1 nickels, 4 pennies.");
-  // });
 
 });
 

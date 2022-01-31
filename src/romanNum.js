@@ -1,5 +1,8 @@
 export default function romanNum(num, roman){
-  if (num-1000>=0){
+  if (!Number.isInteger(num)){
+    return "Error: please enter an integer."
+  }
+  else if (num-1000>=0){
     return romanNum(num-1000, roman.concat('M'));
   }
   else if(num-900>=0){
@@ -40,6 +43,9 @@ export default function romanNum(num, roman){
     return romanNum(num-1, roman.concat('I'));
   }
   else{
+    if (roman==""){
+      return "Error: Please enter an integer greater than 0."
+    }
     return roman;
   }
 }
