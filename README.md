@@ -1,31 +1,25 @@
-# (Application Name)
+# Recursive Roman Numerals
+#### Functional programming project for function to convert number into roman numerals.
 
-#### (Brief Description of Application)
-
-#### By (Your Name Here)
+#### By Morgan Waites
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* Webpack
+* Javascript
+* Jest
+* Babel
 
 ## Description
 
+Functional programming project using recursive function in Javascript to return Roman Numeral string.
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-## Known Bugs
-
-* _Any known issues_
-* _should go here_
+* Clone this repository to desired directory on your computer
+* Navigate into project folder created
+* npm install in terminal
+* Create a script to run calls using function in romanNum.js
 
 ## License
-
-## Contact Information
+MIT Copyright (c) 2022 Morgan Waites
